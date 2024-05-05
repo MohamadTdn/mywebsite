@@ -97,8 +97,30 @@ header {
 .my-skills-title {
     color: #fff;
     text-align: center;
+    padding: 25px 0 0 0;
 }
 
 .my-skills {
     margin: 40px 0 0 0;
 }
+
+.my-skills img {
+    width: 300px;
+    height: 300px;
+}
+
+.progress-bar-skills {
+    animation: scale-up-hor-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes scale-up-hor-center {
+    0% {
+      -webkit-transform: scaleX(0.4);
+              transform: scaleX(0.4);
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+    }
+  }
+  
