@@ -56,17 +56,16 @@ header {
 }
 
 .about-img {
-    background-image: url('../images/headerimg.png');
+    background-image: url('../images/3\ \(3\).jpg');
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     border-radius: 10%;
 }
 
 .about-me {
     margin: 40px 0 0 0;
-    animation: scale-up-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation: scale-up-center 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
 }
 
 @keyframes scale-up-center {
@@ -105,12 +104,13 @@ header {
 }
 
 .my-skills img {
-    width: 300px;
-    height: 300px;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .progress-bar-skills {
-    animation: scale-up-hor-center 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-hor-center 6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @keyframes scale-up-hor-center {
@@ -123,4 +123,35 @@ header {
               transform: scaleX(1);
     }
   }
+
+.socials-networks {
+    margin: 40px 0 0 0;
+}
   
+.socials-cover {
+    background-image: url('../images/socials.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    border-radius: 10%;
+}
+
+.socials-networks ul {
+    list-style: none;
+}
+
+.socials-networks ul li {
+    font-size: 30px;
+    padding: 40px;
+    color: #fff;
+}
+
+.footer {
+    background-color: #fff;
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.copyright {
+    padding: 20px;
+}
